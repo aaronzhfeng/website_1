@@ -13,18 +13,19 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title: "Aaron Zheng Feng"
+title                    : "Zhaoxiang(Aaron) Feng"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name: "Aaron Zheng Feng"
+name                     : "Zhaoxiang(Aaron) Feng"
 description              : "An amazing website."
-url: "https://aaronzhfeng.github.io"
-baseurl: ""
-repository: "aaronzhfeng/aaronzhfeng.github.io"
+url                      : "https://aaronzhfeng.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "aaronzhfeng/aaronzhfeng.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -113,30 +114,21 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Zhaoxiang(Aaron) Feng"
+  avatar           : "/assets/images/selfy_4.png"
+  bio              : "Brief bio here."
+  location         : ""
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      # url: "mailto:aaron@example.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      # url: "https://github.com/aaronzhfeng"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      # url: "https://www.linkedin.com/in/your-handle/"
 
 # Site Footer
 footer:
@@ -194,6 +186,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /resources
 keep_files:
   - .git
   - .svn
@@ -325,5 +318,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"

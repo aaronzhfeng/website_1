@@ -5,4 +5,4 @@ permalink: /about/
 author_profile: true
 ---
 
-Hi, I’m Aaron. This site is built with the Minimal Mistakes Jekyll theme.
+This is a placeholder About page for Zhaoxiang(Aaron) Feng.
